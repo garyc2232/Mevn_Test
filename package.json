@@ -1,0 +1,14 @@
+{
+  "name": "mevn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run serve:server\" \"npm run serve:web\"",
+    "serve:server": "cd server && npm run start",
+    "serve:web": "cd client && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
